@@ -3,14 +3,40 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rye&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="./css/styles.css">
+
   <title>Chuck Norris Jokes</title>
 </head>
+
 <body>
-  <h1>Chuck Norris Jokes</h1>
-  <button id="fetchJoke">Obtener Chiste</button>
-  <ul id="jokeList"></ul>
+
+  <div class="container">
+
+    <h1 class="title">
+      <img
+        src="/img/chuck-icon.png"
+        alt="Chuck Norris Icon"
+        class="title-icon"
+      >
+      Chuck Norris Jokes
+    </h1>
+
+    <div class="buttons">
+      <button id="fetchJoke">Obtener Chiste</button>
+      <button id="clearJokes">Borrar Todos</button>
+    </div>
+
+    <ul id="jokeList"></ul>
+
+  </div>
 
   <script src="./js/script.js"></script>
+
 </body>
 </html>
