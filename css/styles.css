@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
 
-  background-image: url("/img/chuck-norris.jpg");
+  background-image: url("../img/chuck-norris.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
